@@ -35,7 +35,7 @@ affect control of the machine or do <b>I/O )Input</b>/Output" are forbidden to u
 programs. We will come back to the difference between kernel mode and user
 mode repeatedly throughout this book. It plays a crucial role in how operating systems work.</P>
 
-<center><img src="a.jpg" style="width:350px;height:200px;"></center>
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189595559-5b6c4c90-36c7-4aba-a0dd-5718730be06e.png"></p>
 
 ##### <p align="center"><b>Figure 1-1.</b> Where the operating system fits in.</p>
 
@@ -142,7 +142,7 @@ of the operating system is to hide the hardware and present programs (and their
 programmers) with nice, clean, elegant, consistent, abstractions to work with instead. Operating systems turn the ugly into the beautiful, as shown in Fig. 1-2.
 </p>
 
-<center><img src="s.jpg" style="width:350px;height:200px;"></center>
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189592613-b0ac8669-a333-4377-8903-0d0d7e904da5.jpg"></p>
 
 ##### <p align="center"><b>Figure 1-2.</b> Operating systems turn ugly hardware into beautiful abstractions.</p>
 
@@ -291,7 +291,7 @@ written onto a second tape, instead of being printed. After each job finished, t
 operating system automatically read the next job from the tape and began running
 </p>
 
-<center><img src="d.jpg" style="width:450px;height:150px;"></center>
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189592722-b61a8105-5f82-4afc-84fe-914a1878a155.jpg"></p>
 
 ##### <p align="center"><b>Figure 1-3.</b> An early batch system. (a) Programmers bring cards to 1401. (b) 1401 reads batch of jobs onto tape. (c) Operator carries input tape to 7094. (d) 7094 does computing. (e) Operator carries output tape to 1401. (f) 1401 prints output.</p>
 
@@ -316,7 +316,7 @@ System) and IBSYS, IBM’s operating system for the 7094.</p>
 
 <p align="justify">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp By the early 1960s, most computer manufacturers had two distinct, incompatible, product lines. On the one hand, there were the word-oriented, large-scale scientific computers, such as the 7094, which were used for industrial-strength numerical calculations in science and engineering. On the other hand, there were the</p>
 
-<center><img src="f.jpg" style="width:350px;height:200px;"></center>
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189592759-d9b43244-fd29-466f-a551-fcbe350ea695.jpg"></p>
 
 ##### <p align="center"><b>Figure 1-4.</b> Structure of a typical FMS job.</p>
 
@@ -384,7 +384,7 @@ each job against snooping and mischief by the other ones, but the 360 and other
 third-generation systems were equipped with this hardware.
 </p>
 
-<center><img src="g.jpg" style="width:200px;height:140px;"></center>
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189592791-100ffce9-b5f3-4006-819d-bd43675c537e.jpg"></p>
 
 ##### <p align="center"><b>Figure 1-5.</b> A multiprogramming system with three jobs in memory.</p>
 
@@ -712,7 +712,7 @@ very compact summary. Many books have been written on the subject of computer
 hardware and computer organization. Two well-known ones are by Tanenbaum
 and Austin (2012) and Patterson and Hennessy (2013).</p>
 
-<center><img src="h.jpg" style="width:350px;height:170px;"></center>
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189592858-d42fe761-5e1a-46e0-88ac-bf723cbf6926.jpg"></p>
 
 ##### <p align="center"><b>Figure 1-6.</b> Some of the components of a simple personal computer.</p>
 
@@ -759,7 +759,7 @@ pipeline designs, once an instruction has been fetched into the pipeline, it mus
 executed, even if the preceding instruction was a conditional branch that was taken. Pipelines cause compiler writers and operating system writers great headaches because they expose the complexities of the underlying machine to them and they
 have to deal with them.</p>
 
-<center><img src="j.jpg" style="width:400px;height:130px;"></center>
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189592904-b73014d8-1cbd-4286-a36e-1d7f1a5fa5b2.jpg"></p>
 
 ##### <p align="center"><b>Figure 1-7.</b> (a) A three-stage pipeline. (b) A superscalar CPU.</p>
 
@@ -842,7 +842,7 @@ polygons in graphics applications. They are not so good at serial tasks. They ar
 also hard to program. While GPUs can be useful for operating systems (e.g., encryption or processing of network traffic), it is not likely that much of the operating
 system itself will run on the GPUs.</p>
 
-<center><img src="k.jpg" style="width:350px;height:200px;"></center>
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189592936-6f00b6b9-173e-4efc-b3f9-52c659fd5291.jpg"></p>
 
 ##### <p align="center"><b>Figure 1-8.</b> (a) A quad-core chip with a shared L2 cache. (b) A quad-core chip with separate L2 caches.</p>
 
@@ -858,7 +858,7 @@ the same material as the CPU and are thus just as fast as the CPU. Consequently,
 there is no delay in accessing them. The storage capacity available in them is
 </p>
 
-<center><img src="l.jpg" style="width:330px;height:150px;"></center>
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189592979-004d4f32-e707-4eca-b02e-0a67597b40d7.jpg"></p>
 
 ##### <p align="center"><b>Figure 1-9.</b> A typical memory hierarchy. The numbers are very rough approximations.</p>
 
@@ -961,7 +961,7 @@ as well. The only problem is that the time to randomly access data on it is clos
 three orders of magnitude slower. The reason is that a disk is a mechanical device,
 as shown in Fig. 1-10.</p>
 
-<center><img src="q.jpg" style="width:360px;height:200px;"></center>
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189593001-604675db-37db-4c33-b070-5649f1ac8e4e.jpg"></p>
 
 ##### <p align="center"><b>Figure 1-10.</b> Structure of a disk drive.</p>
 
@@ -1083,7 +1083,7 @@ chip using certain bus lines in step 2. If the interrupt controller is ready to 
 the interrupt (which it may not be if it is busy handling a higher-priority one), it asserts a pin on the CPU chip telling it, in step 3. In step 4, the interrupt controller puts the number of the device on the bus so the CPU can read it and know which
 device has just finished (many devices may be running at the same time).</p>
 
-<center><img src="w.jpg" style="width:350px;height:170px;"></center>
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189593055-e05683ef-ba2e-4055-ace1-e0920e9ba36d.jpg"></p>
 
 ##### <p align="center"><b>Figure 1-11.</b> (a) The steps in starting an I/O device and getting an interrupt. (b) Interrupt processing involves taking the interrupt, running the interrupt handler, and returning to the user program.</p>
 
@@ -1120,7 +1120,7 @@ to the breaking point. Something had to give. As a result, additional buses were
 added, both for faster I/O devices and for CPU-to-memory traffic. As a consequence of this evolution, a large x86 system currently looks something like
 Fig. 1-12.</p>
 
-<center><img src="e.jpg" style="width:320px;height:230px;"></center>
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189593103-b97d00c2-85a9-4a58-963d-56a2144a1629.jpg"></p>
 
 ##### <p align="center"><b>Figure 1-12.</b> The structure of a large x86 system.</p>
 
@@ -1422,7 +1422,7 @@ get some job done often need to communicate with one another and synchronize
 their activities. This communication is called <b>interprocess communication</b>, and
 will be addressed in detail in Chap. 2.</p>
 
-![]()
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189593241-71998a35-b3aa-41aa-87c5-d2578717d627.jpg"></p>
 
 ##### <p align="center"><b>Figure 1-13.</b> A process tree. Process A created two child processes, B and C. Process B created three child processes, D, E, and F.</p>
 
@@ -1494,7 +1494,7 @@ World Wide Web home page. System calls are then needed to create and remove
 directories. Calls are also provided to put an existing file in a directory and to remove a file from a directory. Directory entries may be either files or other directories. This model also gives rise to a hierarchy—the file system—as shown in
 Fig. 1-14.</p>
 
-![]()
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189593324-0d41976b-320b-4d93-bfa2-6714a2f499fa.jpg"></p>
 
 ##### <p align="center"><b>Figure 1-14.</b> A file system for a university department.</p>
 
@@ -1544,7 +1544,7 @@ always mounted on empty directories.) If a system contains multiple hard disks,
 they can all be mounted into a single tree as well.
 </p>
 
-![]()
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189593379-b006fe55-2460-458e-82d9-3ca8d21463a6.jpg"></p>
 
 ##### <p align="center"><b>Figure 1-15.</b> (a) Before mounting, the files on the CD-ROM are not accessible. (b) After mounting, they are part of the file hierarchy.</p>
 
@@ -1565,7 +1565,7 @@ process can discover that the output file it is writing on is not really a file,
 pipe, is by making a special system call. File systems are very important. We will
 have much more to say about them in Chap. 4 and also in Chaps. 10 and 11.</p>
 
-![]()
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189593437-e2f9a82c-11e6-4109-afbb-a4cfabbb2757.jpg"></p>
 
 ##### <p align="center"><b>Figure 1-16.</b> Tw o processes connected by a pipe.</p>
 
@@ -1838,7 +1838,7 @@ register (step 5). Then it executes a TRAP instruction to switch from user mode 
 kernel mode and start execution at a fixed address within the kernel (step 6). The
 TRAP instruction is actually fairly similar to the procedure-call instruction in the</p>
 
-![]()
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189593563-99f8128d-df67-4a1a-8a70-8c3a6d99e1c3.jpg"></p>
 
 ##### <p align="center"><b>Figure 1-17.</b>The 11 steps in making the system call read(fd, buffer, nbytes).</p>
 
@@ -1900,7 +1900,7 @@ in the parent. Using the returned PID, the two processes can see which one is th
 parent process and which one is the child process.
 </p>
 
-![]()
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189593628-3502ddee-2d4d-4611-8d6e-11fce98b4b6e.jpg"></p>
 
 ##### <p align="center"><b>Figure 1-18.</b>Some of the major POSIX system calls. The return code s is −1 if an error has occurred. The return codes are as follows: pid is a process id, fd is a file descriptor, n is a byte count, position is an offset within the file, and seconds is the elapsed time. The parameters are explained in the text.</p>
 
@@ -1924,7 +1924,7 @@ is exec, but several library procedures call it with different parameters and sl
 different names. We will treat these as system calls here.) A highly simplified shell
 illustrating the use of fork, waitpid, and execve is shown in Fig. 1-19.</p>
 
-![]()
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189594018-270f5fcd-d308-44db-bec8-ff9675c081b7.png"></p>
 
 ##### <p align="center"><b>Figure 1-19.</b>A stripped-down shell. Throughout this book, TRUE is assumed to be defined as 1.</p>
 
@@ -1986,7 +1986,7 @@ to be opened, either as an absolute path name or relative to the working directo
 as well as a code of <i>O_RDONLY, O_WRONLY, or O_RDWR</i>, meaning open for
 reading, writing, or both. To create a new file, the <i>O_CREAT</i> parameter is used.</p>
 
-![]()
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189594085-5e12be5d-7e47-4063-affc-5582b9bc2f12.jpg"></p>
 
 ##### <p align="center"><b>Figure 1-20.</b>Processes have three segments: text, data, and stack.</p>
 
@@ -2035,9 +2035,9 @@ users, <i>ast</i> and <i>jim</i>, each having his own directory with some files.
 note. Thereafter, <i>/usr/jim/memo</i> and <i>/usr/ast/note</i> refer to the same file. As an
 aside, whether user directories are kept in <i>/usr, /user, /home</i>, or somewhere else is
 simply a decision made by the local system administrator.</p>
-
-![]()
-
+  
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189594231-5caf0c7a-2fa8-4fef-a8bd-90064ea32580.png"></p>
+ 
 ##### <p align="center"><b>Figure 1-21.</b>(a) Two directories before linking /usr/jim/memo to ast’s directory. (b) The same directories after linking.</p>
 
 <p align="justify">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Understanding how link works will probably make it clearer what it does.
@@ -2068,7 +2068,7 @@ root file system, as shown in Fig. 1-22. A typical statement in C to mount is</p
 second parameter is the place in the tree where it is to be mounted, and the third
 parameter tells whether the file system is to be mounted read-write or read-only.</p>
 
-![]()
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189594386-cb13ab7f-c3ec-4c9c-94f2-a86bda68f2cc.png"></p>
 
 ##### <p align="center"><b>Figure 1-22.</b>(a) File system before the mount. (b) File system after the mount.</p>
 
@@ -2122,9 +2122,7 @@ happen, then calls a procedure to handle it. Typical events are keys being struc
 the mouse being moved, a mouse button being pushed, or a USB drive inserted.
 Handlers are then called to process the event, update the screen and update the internal program state. All in all, this leads to a somewhat different style of programming than with UNIX, but since the focus of this book is on operating system
 function and structure, these different programming models will not concern us
-much more.
-
-</p>
+much more.</p>
 
 <p align="justify">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Of course, Windows also has system calls. With UNIX, there is almost a oneto-one relationship between the system calls (e.g., read) and the library procedures
 (e.g., read) used to invoke the system calls. In other words, for each system call,
@@ -2179,7 +2177,7 @@ The Win32 interface does not have links to files, mounted file systems, security
 Win32 has a huge number of other calls that UNIX does not have, especially for
 managing the GUI. Windows Vista has an elaborate security system and also supports file links. Windows 7 and 8 add yet more features and system calls</p>
 
-![]()
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189594478-1d9d93ca-c2f2-47a2-845f-09e6650c9067.png"></p>
 
 ##### <p align="center"><b>Figure 1-23.</b>The Win32 API calls that roughly correspond to the UNIX calls of Fig. 1-18. It is worth emphasizing that Windows has a very large number of other system calls, most of which do not correspond to anything in UNIX.</p>
 
@@ -2240,7 +2238,7 @@ Libraries)</b>. They hav e file extension <i>.dll</i> and the <i>C:\Windows\syst
 on Windows systems has well over 1000 of them.
 </p>
 
-![]()
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189594541-6c938ce2-03c5-4ed1-b851-3e2ca7c8130b.png"></p>
 
 ##### <p align="center"><b>Figure 1-24.</b>A simple structuring model for a monolithic system.</p>
 
@@ -2258,7 +2256,7 @@ which could be programmed without having to worry about the fact that multiple
 processes were running on a single processor. In other words, layer 0 provided the
 basic multiprogramming of the CPU.</p>
 
-![]()
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189594586-fb98cd5c-19f9-4f47-b749-3fbe84cab050.png"></p>
 
 ##### <p align="center"><b>Figure 1-25.</b>Structure of the THE operating system.</p>
 
@@ -2304,9 +2302,7 @@ This means that a monolithic operating system of fiv e million lines of code is 
 situation that rarely occurs. Nevertheless, operating systems are sufficiently buggy
 that computer manufacturers put reset buttons on them (often on the front panel),
 something the manufacturers of TV sets, stereos, and cars do not do, despite the
-large amount of software in these devices.
-
-</p>
+large amount of software in these devices.</p>
 
 <p align="justify">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp The basic idea behind the microkernel design is to achieve high reliability by
 splitting the operating system up into small, well-defined modules, only one of
@@ -2344,7 +2340,7 @@ closely with it. The other device drivers run as separate user processes.</p>
 user mode, they do not have physical access to the I/O port space and cannot issue
 I/O commands directly. Instead, to program an I/O device, the driver builds a structure telling which values to write to which I/O ports and makes a kernel call telling</p>
 
-![]()
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189594656-8aa15844-21f0-49e1-8bef-2f4f7019ced0.png"></p>
 
 ##### <p align="center"><b>Figure 1-26.</b>Simplified structure of the MINIX system.</p>
 
@@ -2398,7 +2394,7 @@ As far as the client is concerned, the same thing happens in both cases: request
 sent and replies come back. Thus the client-server model is an abstraction that can
 be used for a single machine or for a network of machines.</p>
 
-![]()
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189594715-bdb0216b-02ac-4591-a3bb-04291f27fc77.png"></p>
 
 ##### <p align="center"><b>Figure 1-27.</b>The client-server model over a network.</p>
 
@@ -2431,7 +2427,7 @@ bare hardware and does the multiprogramming, providing not one, but several virt
 other operating systems, these virtual machines are not extended machines, with
 files and other nice features. Instead, they are exact copies of the bare hardware, including kernel/user mode, I/O, interrupts, and everything else the real machine has.</p>
 
-![]()
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189594768-915f4f22-5026-4eeb-b8f0-c9312b6119d7.png"></p>
 
 ##### <p align="center"><b>Figure 1-28.</b> The structure of VM/370 with CMS.</p>
 
@@ -2478,7 +2474,7 @@ situation is illustrated in Fig. 1-29(a), where the term ‘‘virtual machine m
 has been renamed <b>type 1 hypervisor</b>, which is commonly used nowadays because ‘‘virtual machine monitor’’ requires more keystrokes than people are prepared to
 put up with now. Note that many authors use the terms interchangeably though.</p>
 
-![]()
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189594817-e723c892-3945-44b2-9da7-356313ce257b.png"></p>
 
 ##### <p align="center"><b>Figure 1-29.</b> (a) A type 1 hypervisor. (b) A pure type 2 hypervisor. (c) A practical type 2 hypervisor.</p>
 
@@ -2689,7 +2685,7 @@ an executable program, traditionally called <i>a.out</i> on UNIX systems. The va
 components of this process are illustrated in Fig. 1-30 for a program with three C
 files and two header files. Although we have been discussing operating system development here, all of this applies to developing any large program.</p>
 
-![]()
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189594919-74d14b09-38ac-4edf-ae31-1b0e4da0f792.png"></p>
 
 ##### <p align="center"><b>Figure 1-30.</b>The process of compiling C and header files to make an executable.</p>
 
@@ -2807,9 +2803,9 @@ units greater than 1 capitalized. Thus a 1-TB database occupies 10^12 bytes of s
 micro both begin with the letter ‘‘m,’’ a choice had to be made. Normally, ‘‘m’’ is
 for milli and ‘‘<i>μ</i>’’ (the Greek letter mu) is for micro.
 </p>
-
-![]()
-
+  
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/189595000-1a315c42-c864-43ef-bda0-3b290f47f198.png"></p>
+  
 ##### <p align="center"><b>Figure 1-31.</b>The principal metric prefixes.</p>
 
 <p align="justify">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp It is also worth pointing out that, in common industry practice, the units for
