@@ -132,3 +132,50 @@ Berikut langkah-langkah untuk menghentikan seluruh proses antar flashdisk dan la
 <p align=center><img src="https://user-images.githubusercontent.com/112606990/191036792-3e3e7c54-cddc-4b15-9a55-f9860f62b14e.png" width=300 height=450></p>
 
 Selesai, Anda sudah berhasil menghentikan seluruh proses yang terjadi antar flashdisk dan laptop.
+
+## <p align=center>System Call</p>
+
+### Contoh 1: Mengubah Penyimpanan (CMD)
+
+Berikut langkah-langkah untuk mengubah penyimpanan (C>D):
+
+1. Buka command prompt/prompt perintah.
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/191043318-42220280-8061-4e84-8e18-f367fb37d767.png" width=500 height=360></p>
+
+2. Command prompt otomatis akan menyimpan ke C, jadi disini kita coba ganti ke penyimpanan D.
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/191043349-8ae700c9-35b7-4f40-bc2b-4beb5fdcc46e.png" width=500 height=360></p>
+
+3. Ketikkan D: lalu tekan enter.
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/191043345-0aadd4e5-7fac-4e82-a142-026307073adb.png" width=500 height=360></p>
+
+Selesai, Anda sudah berhasil mengubah penyimpanannya.
+
+### Contoh 2: Menmbuat Folder (CMD)
+
+Berikut langkah-langkah untuk membuat folder di CMD:
+
+1. Buka command prompt/prompt perintah.
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/191043318-42220280-8061-4e84-8e18-f367fb37d767.png" width=500 height=360></p>
+
+2. Ketikkan mkdir spasi nama_folder, misal disini nama foldernya COBA, jadi ketikkan mkdir COBA. Lalu tekan enter.
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/191043341-3af122e1-2dbc-4be0-b33f-71d1678464a2.png" width=500 height=360></p>
+
+3. Lalu kita cek pada file explorer, apakah folder berhasil dibuat.
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/191043338-05fc050f-8b51-4b4e-8db9-4190862d35bb.png" width=500 height=360></p>
+
+Selesai, Anda sudah berhasil membuat sebuah folder dari CMD.
+
+### Contoh 3: Menmbuat Folder didalam folder (CMD)
+
+Berikut langkah-langkah untuk membuat folder di dalam folder CMD:
+
+1. Buka command prompt/prompt perintah.
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/191043318-42220280-8061-4e84-8e18-f367fb37d767.png" width=500 height=360></p>
+
+2. Ketikkan cd spasi nama folder yang akan diisi. Misal disini nama foldernya COBA. Kemudian, seperti contoh sebelumnya ketikkan mkdir spasi nama folder, disini saya mencoba untuk membuat sekaligus 2 folder.
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/191043820-60c97a06-9f24-40e0-9b1b-d578c7fa2ee5.png" width=500 height=360></p>
+
+4. Lalu kita cek pada file explorer, apakah folder berhasil dibuat.
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/191043699-83c78a11-5fc2-42ad-b8dc-8eab719e5a48.png" width=500 height=360></p>
+
+Selesai, Anda sudah berhasil membuat folder didalam folder dari CMD.
