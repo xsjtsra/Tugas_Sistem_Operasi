@@ -23,6 +23,8 @@ sama lain. Menurut Silberschatz dan kawan-kawan, ada tiga cara yaitu:</p>
 
 <p align=justify>Pada struktur ini, sistem operasi komputer dibuat dari sekumpulan prosedur, yang mana setiap prosedur itu dapat memanggil prosedur yang lainnya, kapan pun prosedur di perlukan.</p>
 
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/192268843-aefb7763-2df3-4462-ab21-125718034f17.png"></p>
+
 Penjelasan lapisan gambar di atas:
 
 1. Main Procedure adalah suatu program yang digunakan untuk memanggil salah satu dari service prosedures, dan juga meminta pelayanan dari service procedures.
@@ -34,6 +36,11 @@ Penjelasan lapisan gambar di atas:
 Contoh Sistem operasi yang menggunakan struktur ini adalah : UNIX , MS-DOS.
 
 ## **Struktur Berlapis (Layered Structure)**
+
+<p align=justify>Struktur Sistem Operasi Layered pada dasarnya dibuat dengan menggunakan
+pendekatan top-down, semua fungsi ditentukan dan dibagi menjadi komponen komponen. Modularisasi sistem dilakukan dengan cara memecah sistem operasi menajdi beberapa lapis (tingkat). Lapisan terendah (layer 0) adalah perangkat keras dan lapisan teratas (layer N) adalah user interface. Dengan system modularisasi, setiap lapisan mempunyai fungsi (operasi) tertentu dan melayani lapisan yang lebih rendah.</p>
+
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/192268851-f1662598-09ea-4c9d-b05b-f7e2e48205ed.png"></p>
 
 Berdasarkan pengembangannya ada 6 Layer yang di temukan yaitu :
 
@@ -55,6 +62,7 @@ Contoh Sistem operasi yang menggunakan struktur ini adalah : THE, MULTICS
 
 <p align=justify>Pada Struktur ini, Seolah-olah semua user memiliki komputer sendiri. Namun secara fisik kenyataanya hanya ada satu komputer saja, tetapi secara logic ada beberapa mesin komputer. Struktur ini biasa disebut CP/CMS (Conversational Monitor System), kemudian menjadi virtual Machine/370 yang dikembangkan oleh Seawright dan Mackinnon tahun 1979. Inti dari Virtual Machine adalah Virtual Machine Monitor, yang berjalan diatas hardware. Disini multiprogramming tidak disediakan dan baru bisa dilakukan pada layer diatas yaitu pada VM/370.</p>
 
+<p align=center><img src="https://user-images.githubusercontent.com/112606990/192268840-131032fb-c3fe-4043-8969-50618a3b7384.png"></p>
 
 Contoh Virtual machine adalah : VMWare, Virtual Box
 
@@ -79,9 +87,4 @@ Contoh Virtual machine adalah : VMWare, Virtual Box
 - menyediakan fasilitas komunikasi antara program client dan bermacam pelayanan yang berjalan pada ruang user.
 - Mudah dalam memperluas sistem operasi.
 - Mudah untuk diubah ke bentuk arsitektur baru.
-- Kode yang kecil dan lebih aman
-
-<p align=justify></p>
-<p align=justify></p>
-<p align=justify></p>
-<p align=justify></p>
+- Kode yang kecil dan lebih aman.
